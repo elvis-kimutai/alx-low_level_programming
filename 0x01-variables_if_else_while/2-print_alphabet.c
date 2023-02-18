@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <time.h>
 /**
  * main - Entry point
  * Description: prints the alphabet in lowercase\n

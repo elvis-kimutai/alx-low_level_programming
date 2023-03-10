@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#define MAINN_H
+#define MAIN_H
 
 /*
  * File: main.h

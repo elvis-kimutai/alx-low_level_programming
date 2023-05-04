@@ -14,15 +14,25 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int no = 0;
 	int a = 0;
 
-	if (b[a] == '\0')
+	if (b == NULL)
 		return (0);
 
-	while ((b[a] == '0') || (b[a] == '1'))
+	while (b[a])
 	{
-		no <<= 1;
-		no += b[a] - '0';
+		if (b[a] == '0')
+		{
+			no <<= 1;
+		}
+		else if (b[a] == '1')
+		{
+			no <<= 1;
+			no += 1;
+		}
+		else
+		{
+			return (0);
+		}
 		a++;
 	}
-
 	return (no);
 }

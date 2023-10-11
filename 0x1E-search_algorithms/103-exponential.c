@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * binary_search2 - searches for a value in an array using BS
+ * _binary_search - searches for a value in an array using BS
  * @array: pointer to the array to search
  * @left:  beginnig of an array
  * @right: end of an array
